@@ -10,7 +10,7 @@ try {
     }
 } catch (err) {
     console.log('File local.json not found.')
-
+}
 
 const MAX_CPUS = process.env.MAX_CPUS || 'max';
 const IS_DEV = process.env.NODE_ENV === 'development';
